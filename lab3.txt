@@ -1,0 +1,119 @@
+#zad. 1
+
+git commit
+git commit
+
+#zad.2
+
+git checkout -b bugFix
+
+#zad.3
+
+git branch bugFix
+git checkout bugFix
+git commit
+git checkout main
+git commit
+git merge bugFix
+
+#zad.4
+
+git checkout -b bugFix
+git commit
+git checkout main
+git commit
+git checkout bugFix
+git rebase main
+
+#zad.5
+
+git checkout C4
+
+#zad.6
+
+git checkout C4^
+
+#zad.7
+
+git checkout HEAD^
+git branch -f main C6
+git branch -f bugFix HEAD^
+
+#zad.8
+
+git reset HEAD^
+git checkout pushed
+git revert pushed
+
+#zad.9
+
+git cherry-pick C3 C4 C7
+
+#zad.10
+
+git rebase -i C1
+
+#zad.11
+
+git rebase -i C1
+git checkout main
+fit cherry-pick bugFix
+
+#zad.12
+
+git rebase -i C1
+git commit --amend
+git checkout caption
+git rebase -i C1
+git checkout main
+git branch -f main C3''
+
+#zad.13
+
+git checkout main
+git cherry-pick C2
+git commit --amend
+git cherry-pick C3
+
+#zad.14
+
+git tag v0 C1
+git tag v1 C2
+git checkout v1
+
+#zad.15
+
+git describe
+git describe HEAD
+git describe main
+git describe c5
+git describe C6
+git commit
+
+#zad.16
+
+git checkout bugFix
+git rebase main
+git checkout side
+git rebase -i bugFix
+git checkout another
+git rebase side
+git checkout main
+fit merge another
+
+#zad.17
+
+git branch bugWork HEAD~^2^
+
+#zad.18
+
+git branch -f three HEAD~3
+git rebase -i C1
+git branch -f one
+git checkout C1
+git cherry-pick C5 C4' C3' C2'
+git branch -f two
+git branch -f main C5
+
+
+
